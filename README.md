@@ -1,4 +1,4 @@
-#Category: Prejudged Projects & Presentation
+Category: Prejudged Projects & Presentation
 
 Type: Individual Topic:
 Develop a database program to manage the issuance of books at a school library.
