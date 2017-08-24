@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E89B5DE41F4BB671009B067A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89B5DE31F4BB671009B067A /* AppDelegate.swift */; };
+		E89B5DE61F4BB671009B067A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89B5DE51F4BB671009B067A /* ViewController.swift */; };
+		E89B5DE81F4BB671009B067A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89B5DE71F4BB671009B067A /* Assets.xcassets */; };
+		E89B5DEB1F4BB671009B067A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89B5DE91F4BB671009B067A /* Main.storyboard */; };
+		E89B5DF61F4BB671009B067A /* BradfordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89B5DF51F4BB671009B067A /* BradfordTests.swift */; };
+		E89B5E011F4BB671009B067A /* BradfordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89B5E001F4BB671009B067A /* BradfordUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E89B5DF21F4BB671009B067A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E89B5DD81F4BB671009B067A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89B5DDF1F4BB671009B067A;
+			remoteInfo = Bradford;
+		};
+		E89B5DFD1F4BB671009B067A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E89B5DD81F4BB671009B067A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89B5DDF1F4BB671009B067A;
+			remoteInfo = Bradford;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E89B5DE01F4BB671009B067A /* Bradford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bradford.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89B5DE31F4BB671009B067A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E89B5DE51F4BB671009B067A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E89B5DE71F4BB671009B067A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E89B5DEA1F4BB671009B067A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E89B5DEC1F4BB671009B067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89B5DF11F4BB671009B067A /* BradfordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BradfordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89B5DF51F4BB671009B067A /* BradfordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BradfordTests.swift; sourceTree = "<group>"; };
+		E89B5DF71F4BB671009B067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89B5DFC1F4BB671009B067A /* BradfordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BradfordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89B5E001F4BB671009B067A /* BradfordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BradfordUITests.swift; sourceTree = "<group>"; };
+		E89B5E021F4BB671009B067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E89B5DDD1F4BB671009B067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89B5DEE1F4BB671009B067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89B5DF91F4BB671009B067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E89B5DD71F4BB671009B067A = {
+			isa = PBXGroup;
+			children = (
+				E89B5DE21F4BB671009B067A /* Bradford */,
+				E89B5DF41F4BB671009B067A /* BradfordTests */,
+				E89B5DFF1F4BB671009B067A /* BradfordUITests */,
+				E89B5DE11F4BB671009B067A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E89B5DE11F4BB671009B067A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E89B5DE01F4BB671009B067A /* Bradford.app */,
+				E89B5DF11F4BB671009B067A /* BradfordTests.xctest */,
+				E89B5DFC1F4BB671009B067A /* BradfordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E89B5DE21F4BB671009B067A /* Bradford */ = {
+			isa = PBXGroup;
+			children = (
+				E89B5DE31F4BB671009B067A /* AppDelegate.swift */,
+				E89B5DE51F4BB671009B067A /* ViewController.swift */,
+				E89B5DE71F4BB671009B067A /* Assets.xcassets */,
+				E89B5DE91F4BB671009B067A /* Main.storyboard */,
+				E89B5DEC1F4BB671009B067A /* Info.plist */,
+			);
+			path = Bradford;
+			sourceTree = "<group>";
+		};
+		E89B5DF41F4BB671009B067A /* BradfordTests */ = {
+			isa = PBXGroup;
+			children = (
+				E89B5DF51F4BB671009B067A /* BradfordTests.swift */,
+				E89B5DF71F4BB671009B067A /* Info.plist */,
+			);
+			path = BradfordTests;
+			sourceTree = "<group>";
+		};
+		E89B5DFF1F4BB671009B067A /* BradfordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E89B5E001F4BB671009B067A /* BradfordUITests.swift */,
+				E89B5E021F4BB671009B067A /* Info.plist */,
+			);
+			path = BradfordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E89B5DDF1F4BB671009B067A /* Bradford */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89B5E051F4BB671009B067A /* Build configuration list for PBXNativeTarget "Bradford" */;
+			buildPhases = (
+				E89B5DDC1F4BB671009B067A /* Sources */,
+				E89B5DDD1F4BB671009B067A /* Frameworks */,
+				E89B5DDE1F4BB671009B067A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bradford;
+			productName = Bradford;
+			productReference = E89B5DE01F4BB671009B067A /* Bradford.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E89B5DF01F4BB671009B067A /* BradfordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89B5E081F4BB671009B067A /* Build configuration list for PBXNativeTarget "BradfordTests" */;
+			buildPhases = (
+				E89B5DED1F4BB671009B067A /* Sources */,
+				E89B5DEE1F4BB671009B067A /* Frameworks */,
+				E89B5DEF1F4BB671009B067A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E89B5DF31F4BB671009B067A /* PBXTargetDependency */,
+			);
+			name = BradfordTests;
+			productName = BradfordTests;
+			productReference = E89B5DF11F4BB671009B067A /* BradfordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E89B5DFB1F4BB671009B067A /* BradfordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89B5E0B1F4BB671009B067A /* Build configuration list for PBXNativeTarget "BradfordUITests" */;
+			buildPhases = (
+				E89B5DF81F4BB671009B067A /* Sources */,
+				E89B5DF91F4BB671009B067A /* Frameworks */,
+				E89B5DFA1F4BB671009B067A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E89B5DFE1F4BB671009B067A /* PBXTargetDependency */,
+			);
+			name = BradfordUITests;
+			productName = BradfordUITests;
+			productReference = E89B5DFC1F4BB671009B067A /* BradfordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E89B5DD81F4BB671009B067A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ryan Gess";
+				TargetAttributes = {
+					E89B5DDF1F4BB671009B067A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X8Z9JV8L9G;
+						ProvisioningStyle = Automatic;
+					};
+					E89B5DF01F4BB671009B067A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X8Z9JV8L9G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E89B5DDF1F4BB671009B067A;
+					};
+					E89B5DFB1F4BB671009B067A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X8Z9JV8L9G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E89B5DDF1F4BB671009B067A;
+					};
+				};
+			};
+			buildConfigurationList = E89B5DDB1F4BB671009B067A /* Build configuration list for PBXProject "Bradford" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E89B5DD71F4BB671009B067A;
+			productRefGroup = E89B5DE11F4BB671009B067A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E89B5DDF1F4BB671009B067A /* Bradford */,
+				E89B5DF01F4BB671009B067A /* BradfordTests */,
+				E89B5DFB1F4BB671009B067A /* BradfordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E89B5DDE1F4BB671009B067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89B5DE81F4BB671009B067A /* Assets.xcassets in Resources */,
+				E89B5DEB1F4BB671009B067A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89B5DEF1F4BB671009B067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89B5DFA1F4BB671009B067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E89B5DDC1F4BB671009B067A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89B5DE61F4BB671009B067A /* ViewController.swift in Sources */,
+				E89B5DE41F4BB671009B067A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89B5DED1F4BB671009B067A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89B5DF61F4BB671009B067A /* BradfordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89B5DF81F4BB671009B067A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89B5E011F4BB671009B067A /* BradfordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E89B5DF31F4BB671009B067A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E89B5DDF1F4BB671009B067A /* Bradford */;
+			targetProxy = E89B5DF21F4BB671009B067A /* PBXContainerItemProxy */;
+		};
+		E89B5DFE1F4BB671009B067A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E89B5DDF1F4BB671009B067A /* Bradford */;
+			targetProxy = E89B5DFD1F4BB671009B067A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E89B5DE91F4BB671009B067A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E89B5DEA1F4BB671009B067A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E89B5E031F4BB671009B067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E89B5E041F4BB671009B067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		E89B5E061F4BB671009B067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X8Z9JV8L9G;
+				INFOPLIST_FILE = Bradford/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ryangess.Bradford;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E89B5E071F4BB671009B067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X8Z9JV8L9G;
+				INFOPLIST_FILE = Bradford/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ryangess.Bradford;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E89B5E091F4BB671009B067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X8Z9JV8L9G;
+				INFOPLIST_FILE = BradfordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ryangess.BradfordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bradford.app/Contents/MacOS/Bradford";
+			};
+			name = Debug;
+		};
+		E89B5E0A1F4BB671009B067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X8Z9JV8L9G;
+				INFOPLIST_FILE = BradfordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ryangess.BradfordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bradford.app/Contents/MacOS/Bradford";
+			};
+			name = Release;
+		};
+		E89B5E0C1F4BB671009B067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X8Z9JV8L9G;
+				INFOPLIST_FILE = BradfordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ryangess.BradfordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bradford;
+			};
+			name = Debug;
+		};
+		E89B5E0D1F4BB671009B067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X8Z9JV8L9G;
+				INFOPLIST_FILE = BradfordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ryangess.BradfordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bradford;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E89B5DDB1F4BB671009B067A /* Build configuration list for PBXProject "Bradford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89B5E031F4BB671009B067A /* Debug */,
+				E89B5E041F4BB671009B067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E89B5E051F4BB671009B067A /* Build configuration list for PBXNativeTarget "Bradford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89B5E061F4BB671009B067A /* Debug */,
+				E89B5E071F4BB671009B067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E89B5E081F4BB671009B067A /* Build configuration list for PBXNativeTarget "BradfordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89B5E091F4BB671009B067A /* Debug */,
+				E89B5E0A1F4BB671009B067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E89B5E0B1F4BB671009B067A /* Build configuration list for PBXNativeTarget "BradfordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89B5E0C1F4BB671009B067A /* Debug */,
+				E89B5E0D1F4BB671009B067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E89B5DD81F4BB671009B067A /* Project object */;
+}
